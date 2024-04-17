@@ -1,0 +1,11 @@
+@media (max-width: 1120px){
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    footer {
+       
+
+        font-size: 16px;
+    }
+}
