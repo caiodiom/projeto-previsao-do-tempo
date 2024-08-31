@@ -23,6 +23,13 @@ let dados = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + c
 
 }
 
+document.addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    const button = document.getElementById('meuBotao');
+    button.click();
+  }
+});
+
 function cliqueiNoBotao() {
   let cidade = document.querySelector('.input-cidade').value
   
