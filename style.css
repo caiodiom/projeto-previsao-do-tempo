@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(imagens/foto1.avif);
+    background-image: url("https://image.unsplash.com/nature");
     background-size: cover;
     height: 100vh; /* ALTURA */
     width: 100vw; /* LARGURA */
