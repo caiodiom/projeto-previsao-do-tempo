@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("./imagens/unnamed.png");
+    background-image: url(../imagens/unnamed.png);
     background-size: cover;
     height: 100vh; /* ALTURA */
     width: 100vw; /* LARGURA */
