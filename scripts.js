@@ -1,4 +1,4 @@
-let chave = 'cebcd482eda57fa9a6714c1c2ba91885'
+let chave = 'f3a94003320574a003ca2607658e78a9'
 
 function colocarNaTela(dados){
   console.log(dados)
@@ -8,10 +8,12 @@ function colocarNaTela(dados){
   document.querySelector(".icone").src="https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png"
   document.querySelector(".umidade").innerHTML = "Umidade: " + dados.main.humidity + "%"
   
+
+  
 }
 
 async function buscarCidade(cidade) {
-let dados = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + cidade + "&appid=cebcd482eda57fa9a6714c1c2ba91885&units=metric").then(resposta => resposta.json())
+let dados = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + cidade + "&appid=f3a94003320574a003ca2607658e78a9&units=metric").then(resposta => resposta.json())
 
   // AWAIT = ESPERE
   // FETCH -> Ferramenta do JavaScript para acessar servidores
